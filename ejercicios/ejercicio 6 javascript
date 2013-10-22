@@ -1,0 +1,34 @@
+<!<!doctype html>
+<html>
+<head lang="es">
+	<title>Mi segunda pagina web</title>
+	<meta name="author" content="author">
+	<meta name="keywords" content="javascript">
+	<meta charset="UTF-8">
+	<meta name="description" content="pues unos ejemplillos">
+
+	<<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+
+	nombre=<input type="button" name="boton1" value="Escribe tu nombre">
+
+	</script>
+
+</head>
+<body>
+
+	<p>Programacion con javascript</p>
+	
+	<code><pre>
+		String s;
+		s = new String();
+
+		s="Hola";
+		System.out.println();
+
+	</pre>
+
+	</code>
+
+
+</body>
+</html>

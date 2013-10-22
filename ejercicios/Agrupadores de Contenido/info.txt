@@ -1,0 +1,14 @@
+Para mejorar la estructura de las páginas y evitar el uso de otras etiquetas (div) HTML 5 añade nuevas etiquetas para clasificar el contenido por secciones y según su utilidad o importancia. Estas etiquetas son:
+
+    <header>- Sirve para insertar información como título, logo, enlaces a modo de introducción de la página.
+    <nav>- Sección con enlaces a otras páginas, esto es, los los menús de navegación.
+    <section>- Permite insertar una sección general dentro de un documento. Suele contener <h1>, <h2>,... para crear jerarquías. Puede anidarse.
+    <article>- Es un elemento atómico con el objetivo de que pueda reutilizarse (post de un foro, entrada de un blog, artículo de periódico, comentario de un usuario, etc.
+    <aside>- Es una sección relacionada indirectamente con el contenido. Son por ejemplo las barras laterales, publicidad, enlaces a otras webs.
+    <footer>- Pie de página, que suele contener autor, copyright, año, mapa del sitio, etc.
+
+Los elementos clásicos para establecer agrupamientos (HTML 4.01 y XHTML) son los div y span
+
+    <div>- Sirve para agrupar varios elementos dentro de un bloque. Permite tratarlos como un conjunto asignándoles un identificador, una clase o un estilo.
+    <span>- Parecido a un div pero para elementos en línea. Sobre todo se utiliza para asirgnar nombre, estilo o clase a un trozo de texto.
+
