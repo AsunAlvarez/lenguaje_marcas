@@ -1,0 +1,15 @@
+1.Premio Turing. Utiliza el archivo premio_turing.html. Necesitarás varias clases de párrafos. También puedes cambiar párrafos por otros elementos más apropiados (por ejemplo encabezados):
+
+    los párrafos de introducción, que tienen un margen izquierdo y derecho mayor que el resto.
+    los párrafos con la fecha y el nombre del premiado, que aparece con fondo azul claro.
+    los párrafos que cuentan el motivo del premio, que aparecen con bordes a izquierda a derecha.
+    Utiliza etiquetas para resaltar textos concretos, que contiene:
+        en azul lon nombres de las empresas.
+        las publicaciones (libros o artículos) subrayados y en cursiva.
+        cambiamos el fondo y el tipo de letra de los nombres de lenguajes de programación
+    Para el color de página y el borde exterior utiliza los estilos sobre el elemento .
+
+
+http://aulavirtual.educa.jccm.es/Aula_Virtual/file.php/2409/media/EjerciciosClases_premio_turing_css_html.png
+
+http://aulavirtual.educa.jccm.es/Aula_Virtual/file.php/2409/media/premio_turing.html

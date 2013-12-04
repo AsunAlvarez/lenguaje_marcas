@@ -1,0 +1,68 @@
+
+* {
+	background-color: #add8e6;
+	font-family: arial;
+}
+body{
+	background-color: #add8e6;
+	text-align: justify;
+	margin: 1em;
+	/*margin-left: 10%;*/
+	border: 0.3em solid gray;
+	padding: 2em;
+}
+a{
+	background-color: #add8e6;}
+h1{
+	/*ESTE NO ME FUNCIONA*/
+	font-stretch: extra-expanded;
+	font-size: 3em;
+	font-weight: bold;
+	background-color: white;
+	margin-left: 4em;
+	margin-right: 2em;
+	margin-top: 0em;
+	letter-spacing: 0.6em;
+}
+
+h2{
+	background-color: white;
+}
+
+p{
+		background-color: #add8e6;
+		border-left: 0.4em solid gray;
+		padding-left: 0.5em;
+		border-right: 0.4em solid gray;
+		font-size: 1.2em;
+		margin-left: 1em;
+		margin-right: 1em;
+}
+
+
+span.uno{
+	font-weight: 900;
+	color: #000080;
+	font-family: cursive;	
+}
+#encabezado {
+	border-left: none;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-right: 10em;
+	background-color: #add8e6;
+	
+	padding-left: 10em;
+	border-right: 0.4em solid gray;
+	font-size: 1.2em;
+	margin-left: 1em;
+	margin-right: 1em;
+
+}
+
+#encabezado p {
+	
+	
+
+
+}

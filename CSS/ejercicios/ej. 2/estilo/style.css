@@ -1,0 +1,65 @@
+*{
+	background-color: rgba(222,224,222,0.6);
+}
+
+hr {
+	padding: 0.05em;
+	margin-top:1em;
+	margin-bottom: 2.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	border: black;
+	background-color: black;
+	height: 1px;
+}
+
+body{
+}
+
+p.header{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+	font-size: 4em;
+	color: gray;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+p.autor{
+	text-align: center;
+	font-weight: 600;
+}
+
+p.amor{
+	font-size: 1em;
+	font-family: fantasy;
+	border:0.5em solid black;
+	border-width: thick;
+	margin: 2em;
+	padding: 1em;
+	background-color:rgba(255,194,255,0.4);
+	border-color:rgba(214,16,138,0.4);
+}
+
+p.vida{
+	font-size: 1em;
+	font-family: fantasy;
+	border:0.5em solid black;
+	border-width: thick;
+	margin: 2em;
+	padding: 1em;
+	background-color: rgba(144,255,174,0.4);
+	border-color: rgba(90,204,158,0.8);
+}
+
+p.trabajo{
+	font-size: 1em;
+	font-family: fantasy;
+	border:0.5em solid black;
+	border-width: thick;
+	margin: 2em;
+	padding: 1em;
+	border-color:rgba(52,73,191,0.7);
+	background-color: rgba(22,115,255,0.5);
+}

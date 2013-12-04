@@ -1,0 +1,68 @@
+/* selector {propiedad:valor; 
+			propiedad:valor; 
+			....
+			}
+*/
+
+
+/* selector universal */
+
+
+
+* {
+	font-family: Arial;
+}
+
+p{
+	color:red;
+}
+
+
+/* selector de clase */
+
+.importante{
+	text-decoration:underline;
+}
+
+P.importante{
+	font-weight: 600;
+}
+
+/* clase*/ 
+#segundo {
+		color:blue;
+}
+
+/*este se aplicaria a los elementos que tiene aplicada 
+la clase #segundo y estan dentro del elemento <span> */
+#segundo span{
+	font-weight: 900;
+	color: green;
+}
+/*SE APLICA: cualquier <strong> que este en #segundo*/
+#segundo strong{
+	text-decoration: underline;
+	font-family: times;
+}
+/* SE APLICA: los <strong> q son hijos directos de #segundo*/
+#segundo > strong{
+	text-decoration: underline;
+	font-family: times;
+}
+
+a{
+	text-decoration: none;
+
+}
+/*al pasar el raton por encima del elemento*/
+a:hover{
+		background-color: yellow;
+}
+
+h3{
+	background-color: rgb(200,100,0);
+	padding: 10px;
+	padding-left: 5em;
+	border:2px solid black;
+	margin-top: 2em;
+}

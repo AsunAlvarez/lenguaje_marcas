@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title></title>
+			<link rel="stylesheet" href="">
+	</head>
+	<body>
+
+		<h1>Formulario 5</h1>
+		<form action="#" method="get" action="#">
+				<table border="1">
+					<tr>
+						<td colspan="2" style="text-align:center;">Identificador de nuevo usuario</td>
+						
+					</tr>
+					<tr>
+						<td colspan="2">
+							<table border="1" style="width:100%"  >
+								<tr>
+									<td style="text-align:right;"><label for="usuario">Nombre: </label>  <input type="text" name="nombre" value=""></td>
+									<td style="text-align:right;"><label for="dni">Apellidos: </label>  <input type="text" name="apellidos" value="" ></td>
+								</tr>
+								<tr>
+									<td style="text-align:right;"><label for="ape">Contraseña:</label>  <input type="text" name="clave" value="" ></td>
+									<td style="text-align:right;"><label for="nacimiento">Confirmar Contraseña:</label>  <input type="text" name="clave" value="" ></td>
+								</tr>
+							</table>
+						</td>
+						
+					</tr>	
+
+					<tr>
+						<td style="text-align:right;"><label for="email">Email:</label></td>
+						<td style="text-align:right;"><input style="width:100%;" type="email" id="email" name="email"></td>
+					</tr>
+					<tr>
+						<td style="text-align:right;"><label for="sexo">Sexo:</label></td>
+						<td style="text-align:left;" id="sexo">
+							<input type="radio" name="Genero">Varón
+							<input type="radio" name="Genero" checked>Mujer
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align:right;"><label for="aficiones">Aficiones:</label></td>
+						<td style="text-align:left;" id="aficiones">
+							<input type="checkbox" name="deporte" value="d">Deporte<br>
+							<input type="checkbox" name="lectura"value="l" checked>Lectura<br>
+							<input type="checkbox" name="cine"value="c">Cine
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align:right;"><label for="pais">Pais:</label></td>
+						<td style="text-align:left;">
+							<select name="pais" > <!--podriamos poner la opcion multiple -->
+								<option value="Francia" name="pais" value="francia" selected>Francia</option>
+								<option value="España" name="pais" value="españa">España</option>
+								<option value="Alemania" name="pais" value="alemania">Alemania</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="text-align:right;"><label for="pais">Color Favorito:</label></td>
+						<td style="text-align:left;">
+							<select size="3" multiple> <!--ponemos la opcion multiple para poder poner varios "selected"-->
+								<option value="Rojo" name="color" value="rojo" selected>Rojo</option>
+								<option value="Azul" name="color" value="verde">Azul</option>
+								<option value="Verde" name="color" value="azul"selected>Verde</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="text-align:right;"><label for="foto">Subir su foto:</label></td>
+						<td style="text-align:left;" id="foto">
+							<input type="file" name="foto">
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align:right;"><label for="pais">Comentarios<br> Personales:</label></td>
+						<td style="text-align:left;" id="pais">
+							<textarea name="comentarios" rows="5" cols="30">Escriba aquí sus comentarios</textarea>
+						</td>
+					</tr>
+
+
+					<tr>
+						<td colspan="2" style="text-align:center;">
+							<input type="reset" name="reset" value="Reset">
+							<input type="submit" name="" value="Enviar">
+						</td>						
+					</tr>
+
+					<tr>
+						<td colspan="2" style="text-align:center;">
+							<input type="submit" name="" value="Modificar datos del usuario">
+						</td>						
+					</tr>
+
+		</form>
+
+
+		
+	</body>
+</html>

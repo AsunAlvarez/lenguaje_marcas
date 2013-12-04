@@ -1,0 +1,12 @@
+/* HOLA CSS */
+
+
+h1{
+	color:blue;
+	font-family: Arial!important;  /*Este atributo es para decirle que es mas importante este atributo que el especificado en linea*/ 
+}
+
+h2{
+	color: green;
+}
+
