@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="libro" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+<!-- ESTO ES EL CONTENIDO QUE DEBE TENER CADA LIBRO  (puede haber (0,n) libros) lo declaro arriba-->
+  <xs:element name="libro" >
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="isbn" type="tipoISBN"/>   <!--Aqui declaro un TIPO, para llamarlo cuantas veces quiera-->
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element ref="autor"/>
+        <xs:element name="genero" type="tipoGENERO"/> <!--declaro otro TIPO -->
+        <xs:element ref="fechaPublicacion"/>
+        <xs:element ref="idioma"/>
+        <xs:element ref="paginas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  
+<!--AQUI DECLARO UN "TIPO" y lo puedo utilizar cuantas veces sea necesario en otro elementos-->
+<xs:simpleType name="tipoISBN">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="isbn\d{9}-\d{2}"/>
+    </xs:restriction>
+</xs:simpleType>
+  
+  
+  <!--AQUI pongo un contenido complejo q tiene dentro texto y atributos también-->
+  <!-- se pone "mixed=true" para indicar 
+         que el contenido es mixto,textual y puede tener elementos descendientes-->
+  <xs:element name="autor">
+    <xs:complexType mixed="true">
+      <xs:attribute name="fechaNacimiento" type="xs:date"/>
+    </xs:complexType>
+  </xs:element>
+
+<!--AQUI declaro otro TIPO, esta vez contiene las posibles categorias de un libro -->
+<xs:simpleType name="tipoGENERO">
+  <xs:restriction base="xs:string">
+      <xs:enumeration value="Terror"/>
+      <xs:enumeration value="Comedia"/>
+      <xs:enumeration value="Romance"/>
+      <xs:enumeration value="Historico"/>
+      <xs:enumeration value="Fantasia"/>
+  </xs:restriction>
+</xs:simpleType>  
+  
+  
+<!--AQUI utilizo "gYear" para indicar que es una fecha en formato yyyy
+      ademas es un dato obligatorio xq lleva el "use=required"-->  
+  <xs:element name="fechaPublicacion">
+    <xs:complexType>
+      <xs:attribute name="año" type="xs:gYear" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+<!--AQUI utilizo el "xs:enumeration" para indicar que se debe elegir un solo valor de los siguientes 
+      paises q aparecen en la lista-->
+<xs:element name="idioma">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="ES"/>
+        <xs:enumeration value="FR"/>
+        <xs:enumeration value="DE"/>
+        <xs:enumeration value="IT"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<!-- UTILIZO xs:nonNegativeInteger para indicar que son Numeros enteros positivos más el 0
+        es decir no puede haber un libro con paginas negativas-->
+<xs:element name="paginas">
+  <xs:simpleType>
+      <xs:restriction base="xs:nonNegativeInteger"/>
+  </xs:simpleType>
+</xs:element>
+
+
+</xs:schema>

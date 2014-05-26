@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+    <!ELEMENT futbol (partido*)>
+    <!ELEMENT partido (competition, equipos, bandera, info, canalesretransmision)>
+          <!ATTLIST partido id ID #REQUIRED>
+    <!ELEMENT competition (año, jornada)>
+          <!ATTLIST competition nombre NMTOKENS #REQUIRED>
+          <!ELEMENT año (#PCDATA)>
+          <!ELEMENT jornada (#PCDATA)>
+          
+    <!ELEMENT equipos (local, visitante)>
+          <!ATTLIST equipos resultado CDATA #REQUIRED>
+          <!ELEMENT local (#PCDATA)>
+          <!ELEMENT visitante (#PCDATA)>
+          
+    <!ELEMENT bandera (local, visitante)>    
+    
+    <!ELEMENT info (comienzopartido)>
+          <!ATTLIST info estado CDATA #REQUIRED
+              minutogeneracionxml NMTOKENS #REQUIRED>
+              
+    <!ELEMENT comienzopartido (fecha, hora)>
+          <!ELEMENT fecha (#PCDATA)>
+          <!ELEMENT hora (#PCDATA)>
+          
+    <!ELEMENT canalesretransmision (canal)>
+    <!ELEMENT canal (nombre, logo)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT logo (#PCDATA)>
+]>
+
+<futbol >
+
+    <partido id="D54442">
+    
+        <competition nombre="Champions League">
+            <año>2013</año>
+            <jornada>Octavos</jornada>        
+        </competition>
+        
+        <equipos resultado="1-0">
+            <local>Barcelona</local>
+            <visitante>Milan</visitante>
+        </equipos>
+        
+        <bandera>
+            <local>www.fc-barcelona.es</local>
+            <visitante>www.fc-milan.it</visitante>
+        </bandera>
+        
+        <info estado="jugando" minutogeneracionxml="65">
+            <comienzopartido>
+                <fecha>12/03/2013</fecha>
+                <hora>20:45</hora>
+            </comienzopartido>
+        </info>
+ 
+        <canalesretransmision>
+            <canal>
+                  <nombre>Canal+ Liga de Campeones</nombre>
+                  <logo>www.canal+camp.com</logo>
+            </canal>
+        </canalesretransmision>
+            
+    </partido>
+    
+</futbol>

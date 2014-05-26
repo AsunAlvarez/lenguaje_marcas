@@ -1,0 +1,5 @@
+display:block;
+float: right;
+
+
+<span style="display:block;text-align:center;" ><img src="http://tusitio/centrar.jpg" alt="descripción de imagen" /></span> 

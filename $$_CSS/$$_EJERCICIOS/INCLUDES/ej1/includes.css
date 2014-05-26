@@ -1,0 +1,23 @@
+header{
+	background-color: rgb(230,150,230);
+	height: 150px;
+}
+
+.contenedor{
+	width: 900px;
+	margin: 0 auto; /* LO CENTRA TODO EN EL CENTRO*/ 
+}
+
+nav{
+	position: absolute; /* para quitar el hueco que queda a la derecha*/ 
+	background-color: rgb(220,255,230);
+	width: 160px;
+}
+
+.contenido{
+	/*position:relative;*/
+	margin-left:160px;
+	min-height: 200px;
+	background-color: rgb(255,240,240);
+	
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "alumno.dtd">
+
+
+<alumnos>
+    <alumno dni="444444" grupo="1ºDAW" modulos="aplicaciones_web" nota="aprobado">
+      JOSE    
+    </alumno>
+    <alumno dni="333333" grupo="2ºDAW" modulos="fol">
+      MARIA
+    </alumno>
+
+
+</alumnos>

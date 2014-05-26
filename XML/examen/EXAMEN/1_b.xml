@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE vueltaciclista SYSTEM "C:/Users/Javier/Desktop/$$_DAW/Lenguaje_Marcas/XML/examen/EXAMEN/1_b.dtd">
+<vueltaciclista>
+    <etapa numero="1" kilometros="65" salida="Villahermosa" llegada="La Cumbre">
+       
+       <equipos>
+            <equipo nombre="banesto" director="juan b."></equipo>
+            <equipo nombre="ABC" director="eustakio alm"></equipo>
+            <equipo nombre="cuatrotv" director="emilio"></equipo>
+            <equipo nombre="telecinco" director="pablo picasso"></equipo>
+        </equipos>
+        
+        
+          <ciclistas>
+              <ciclista id="d1" equipo="banesto" dorsal="1">
+                  <nombre>ciclista1</nombre>
+                  <edad>35</edad>
+              </ciclista>
+              <ciclista id="d2" equipo="ABC" dorsal="2">
+                  <nombre>ciclista2</nombre>
+                  <edad>40</edad>
+              </ciclista>
+              <ciclista id="d3" equipo="marca" dorsal="3">
+                  <nombre>cicliclista3</nombre>
+                  <edad>32</edad>
+              </ciclista>
+              <ciclista id="d4" equipo="lacuatro" dorsal="4">
+                  <nombre>ciclista4</nombre>
+                  <edad>23</edad>
+              </ciclista>
+              <ciclista id="d5" equipo="telecincotv" dorsal="5">
+                  <nombre>ciclista5</nombre>
+                  <edad>20</edad>
+              </ciclista>
+          </ciclistas>
+          <puertos>
+              <puerto km="20" altura="1000" categoria="2ª" pendientemedia="5%">
+                    <clasificacion>
+                      <posicion numero="1" nombre="ciclista3" hora="2" min="01" seg=""></posicion>
+                      <posicion numero="2" nombre="ciclista4" hora="2" min="05" seg=""></posicion>
+                      <posicion numero="3" nombre="ciclista1" hora="2" min="10" seg=""></posicion>
+                      <posicion numero="4" nombre="ciclista2" hora="2" min="21" seg=""></posicion>
+                      <posicion numero="5" nombre="ciclista5" hora="2" min="31" seg=""></posicion>
+                    </clasificacion>
+              </puerto>
+              <puerto km="30" altura="1500" categoria="1ª" pendientemedia="15%">
+                    <clasificacion>
+                      <posicion numero="1" nombre="ciclista3" hora="2" min="01" seg=""></posicion>
+                      <posicion numero="2" nombre="ciclista4" hora="2" min="05" seg=""></posicion>
+                      <posicion numero="3" nombre="ciclista1" hora="2" min="10" seg=""></posicion>
+                      <posicion numero="4" nombre="ciclista2" hora="2" min="21" seg=""></posicion>
+                      <posicion numero="5" nombre="ciclista5" hora="2" min="31" seg=""></posicion>
+                    </clasificacion>
+              </puerto>
+              <puerto km="33" altura="2000" categoria="1ª" pendientemedia="4%">
+                    <clasificacion>
+                      <posicion numero="1" nombre="ciclista3" hora="2" min="01" seg=""></posicion>
+                      <posicion numero="2" nombre="ciclista4" hora="2" min="05" seg=""></posicion>
+                      <posicion numero="3" nombre="ciclista1" hora="2" min="10" seg=""></posicion>
+                      <posicion numero="4" nombre="ciclista2" hora="2" min="21" seg=""></posicion>
+                      <posicion numero="5" nombre="ciclista5" hora="2" min="31" seg=""></posicion>
+                    </clasificacion>
+              </puerto>
+          </puertos>
+          
+          <clasificacion>
+                <final>
+                      <posicion numero="1" nombre="ciclista3" hora="2" min="01" seg=""></posicion>
+                      <posicion numero="2" nombre="ciclista4" hora="2" min="05" seg=""></posicion>
+                      <posicion numero="3" nombre="ciclista1" hora="2" min="10" seg=""></posicion>
+                      <posicion numero="4" nombre="ciclista2" hora="2" min="21" seg=""></posicion>
+                      <posicion numero="5" nombre="ciclista5" hora="2" min="31" seg=""></posicion>
+                </final>
+          </clasificacion>
+          
+          <maillots>
+              <general><color>rojo</color><nombre>ciclista1</nombre></general>
+              <puntos><color>verde</color><nombre>ciclista2</nombre></puntos>
+              <montana><color>puntos</color><nombre ></nombre></montana>
+              <combinada><color>blanco</color><nombre></nombre></combinada>
+          </maillots>
+
+    </etapa>
+</vueltaciclista>

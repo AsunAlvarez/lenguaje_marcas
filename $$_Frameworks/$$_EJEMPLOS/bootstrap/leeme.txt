@@ -1,0 +1,6 @@
+** plantillas para bootstrap
+	=> cyborg bootstrap
+
+
+** traduccion de la documentacion
+	=> http://librosweb.es/bootstrap_3/

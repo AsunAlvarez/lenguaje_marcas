@@ -1,0 +1,20 @@
+*********************
+****** conf *********
+
+=> package control
+
+
+
+
+
+
+
+
+*********************************************************************************
+************ aqui se guarda la configuracion del sublime ************************
+
+C:\Users\Javier\AppData\Roaming\Sublime Text 2\Packages\User
+
+
+
+

@@ -1,0 +1,12 @@
+<!ELEMENT toolbox (menubar*)>
+          <!ATTLIST toolbox
+                    flex (1|0) #REQUIRED>
+<!ELEMENT menubar (menu*)>
+<!ELEMENT menu (menupopup)>
+        <!ATTLIST menu
+                  label NMTOKENS #REQUIRED>
+<!ELEMENT menupopup (menuitem* | menuseparator*)*>
+<!ELEMENT menuitem (#PCDATA)>
+  <!ATTLIST menuitem
+            label NMTOKENS #REQUIRED>
+<!ELEMENT menuseparator (#PCDATA)>

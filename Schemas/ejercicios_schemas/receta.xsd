@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="recetascocina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="receta" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!--Elementos que debe contener una receta-->
+  <xs:element name="receta" >
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string" />
+        <xs:element ref="categoria"/>
+        <xs:element name="tipicoDe" type="xs:token"/> <!--Pongo token xra q solo pueda haber spacios simples (ni retorno de carro ni na de eso)-->
+        <xs:element ref="autor"/>
+        <xs:element ref="ingredientes"/>
+        <xs:element ref="pasos"/>
+        <xs:element name="comentarios" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="fotos"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!--Aquí pongo que solo sean validas las categorias siguientes...-->
+  <xs:element name="categoria">
+  <xs:simpleType>
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="Cuchara"/>
+      <xs:enumeration value="Entrantes"/>
+      <xs:enumeration value="Postres"/>
+      <xs:enumeration value="Dulces"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>  
+  
+  <xs:element name="autor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="email" type="xs:string"/>
+        <xs:element name="fechapublicacion" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="ingredientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ingrediente" type="xs:string" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="pasos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="paso" type="xs:string" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+<!--Solo puede haber 4 fotos-->
+  <xs:element name="fotos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="foto" maxOccurs="4"/> 
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+<!-- EXPRESION REGULAR para ver que es una URL-->
+  <xs:element name="foto" >
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[hH][tT]{2}[pP]://[wW]{3}.*"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+  
+</xs:schema>
+
+
+
+

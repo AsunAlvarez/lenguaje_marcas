@@ -1,0 +1,59 @@
+@azul: rgb(81,111,223); /*azul*/
+@azul: #39AFF7;
+@grisOscuro: #2B76E6; /*gris oscuro*/
+@negro: #2B76E6; /*negro*/
+
+
+.colorAzul{
+   background-color: #2B76E6;
+}
+
+.btn-default:hover {
+  background-image: -webkit-linear-gradient(rgb(81,111,223), rgb(81,111,223) 40%, #191b1d);
+  background-image: linear-gradient(rgb(81,111,223), rgb(81,111,223) 40%, #191b1d);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff020202', endColorstr='#ff191b1d', GradientType=0);
+  filter: none;
+}
+
+
+footer{
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+footer navbar {
+	
+}
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-bottom{
+	margin-top: 5%;
+	bottom: 0px;
+}
+
+body{
+	margin-top: 40px;
+}
+
+table {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+table td{
+	text-align: center;
+}
+
+table th{
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#contenedor{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}

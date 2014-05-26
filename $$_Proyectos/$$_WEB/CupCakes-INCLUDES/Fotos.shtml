@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Fotos</title>
+			<link rel="stylesheet" href="styles/reset.css" type="text/css">
+			<link rel="stylesheet" href="styles/style.css" type="text/css">
+	</head>
+	<body>
+		<!--#include virtual="includes/header.html"-->
+		<!--#include virtual="includes/nav.html" -->
+		<!--#include virtual="includes/aside.html" -->	
+		
+		<div class="cont">
+			<section>
+				<article class="cont">
+
+<h1>Fotos</h1>
+<h2>Chocolate</h2>
+<!-- INICIO CUERPO DE LA PAGINA -->
+
+
+<img class="imagen" src="images/CherryChocolateChipCupcake.jpg" alt="CherryChocolate Chip Cupcake">
+
+<img class="imagen" src="images/Chocolate_cupcakes.jpg" alt="Chocolate_cupcakes">
+
+<img class="imagen" src="images/chocolate-cupcake-w-raspberry-buttercream-and-chocolate-ganache.jpg" alt="chocolate-cupcake-w-raspberry-buttercream-and-chocolate-ganache">
+
+<h2>Rosas</h2>
+
+<img class="imagen" src="images/Pink-Rose-Cupcakes.jpg" alt="Pink-Rose-Cupcakes">
+<img class="imagen" src="images/url33.jpe" alt="Rosas">
+<img class="imagen" src="images/portada.jpg" alt="Portada">
+
+<h2>Diseño</h2>
+<img class="imagen" src="images/cupcake-b-buho.jpg" alt="cupcake-b-buho">
+<img class="imagen" src="images/rojo.jpe" alt="Red-Roses">
+
+
+<!-- FIN CUERPO DE LA PAGINA -->
+<table id=linkpagina>
+	<tr>
+		<td class="linkpagina" style="text-align:left;"><a class="linkpagina" href="index.shtml">Inicio</a></td>
+		<td class="linkpagina" style="text-align:right;"><a class="linkpagina" href="Recetas.shtml">Recetas</a>
+		</td>
+	</tr>
+</table>
+
+</article>
+<article>
+</article>
+			</section>
+		</div>
+<!--#include virtual="includes/footer.html" -->
+	</body>
+</html>

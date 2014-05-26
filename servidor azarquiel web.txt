@@ -1,0 +1,25 @@
+javier santana mejias
+
+
+
+FILEZILLA *********
+SERVER: aplicaciones.ies-azarquiel.es
+PROTOCOLO: SSH
+dominio: jsantana
+clave:   xsdwh
+
+WEB********
+aplicaciones.ies-azarquiel.es/~jsantana
+
+
+
+
+
+
+
+~ =  (AltGr + 4) + Espacio;
+
+
+
+USER: prueba
+PASS: pruebas

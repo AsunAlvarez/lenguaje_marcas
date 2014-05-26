@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recetascocina xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                        xsi:noNamespaceSchemaLocation="receta.xsd">
+    
+    <receta>
+      <nombre>Menudo de Choco</nombre>
+      <categoria>Cuchara</categoria>
+      <tipicoDe>Cadiz</tipicoDe>        
+      <autor>
+          <nombre>Javier Santana</nombre>
+          <email>javi_castillo333@hotmail.com</email>
+          <fechapublicacion>2014-04-19</fechapublicacion>
+      </autor>
+      <ingredientes>
+          <ingrediente>800 gramos  de garbanzos remojados</ingrediente>
+          <ingrediente>800 gramos de chocos limpios (también llamado jibia o sepia)</ingrediente>
+          <ingrediente>100 gramos de chorizo (en un trozo para picar luego)</ingrediente>
+          <ingrediente>1 cebolla grande</ingrediente>
+          <ingrediente>1 zanahoria pelada</ingrediente>
+          <ingrediente>1 tomate</ingrediente>
+          <ingrediente>1 hoja de laurel</ingrediente>
+          <ingrediente>2 cucharadas de manteca de cerdo (unos 50 gramos en total)</ingrediente>
+          <ingrediente>3 dientes de ajo medianos (o 2 grandes)</ingrediente>
+          <ingrediente>5 hojas grandes de hierbabuena fresca</ingrediente>
+          <ingrediente>2 cucharadas pequeñas de especias para caracoles</ingrediente>
+          <ingrediente>2 clavos de olor</ingrediente>
+          <ingrediente>1 o 2 guindillas o pimientas de cayena (si te gusta suave usa solo una)</ingrediente>
+          <ingrediente>2 cucharadas pequeñas de pimentón dulce (usé pimentón dulce La Chinata PREMIUM)</ingrediente>
+          <ingrediente>1,5 litros de agua</ingrediente>
+          <ingrediente>sal</ingrediente>
+      </ingredientes>
+      <pasos>
+          <paso>Coge una olla o cacerola grande y añade el agua. Pon la olla a calentar.</paso>
+          <paso>Mientras se calienta el agua trocea el choco (pueden ser trozos de unos 2 o 3 centímetros o más grandes).</paso>
+          <paso>Escurre los garbanzos que tienes en remojo y cuando el agua esté caliente añádelos a la olla. Añade también el choco, la cebolla pelada, la zanahoria pelada y el tomate.</paso>  
+          <paso>Deja a fuego medio fuerte hasta que el potaje empiece a soltar espuma. Entonces desespuma con una espumadera y añade el pimentón dulce, la manteca de cerdo y la hoja de laurel.</paso>
+          <paso>Luego deja a fuego medio hasta que se pongan blandos los chocos y los garbanzos (al menos 1 hora). Si usas olla a presión en 30 minutos están listos.</paso>
+          <paso>Mientras se hacen los garbanzos prepararemos las especias. Pon en un mortero las dos cucharadas de especias para caracoles. Como las especias para caracoles traen pimientas de cayena (guindillas secas pequeñitas) te fijas cuantas han salido en esas dos cucharadas y dejas solo una o dos, según lo quieras de picante. Añade 1 cucharada pequeña de sal gorda y los 2 clavos de olor. Machacas todo hasta que quede muy muy fino.</paso> 
+          <paso>Luego añade al mortero los dientes de ajo pelados y las hojas de hierbabuena. Machaca bien hasta formar una pasta.</paso>
+          <paso>Cuando los garbanzos estén tiernos añade el majado que hemos preparado y mezcla bien.</paso>
+          <paso>Trocea el chorizo y añádelo a la olla.</paso>
+          <paso>Ahora dejamos a fuego medio (con la olla siempre destapada) hasta que el caldo espese y se ponga gordito. Prueba de sal y pon el potaje a tu gusto. Y listo …. fuera de la cocina y a comer!!! </paso>
+      </pasos>
+      <comentarios>
+          Este potajito que traigo hoy es uno de mis favoritos pues tiene todo lo bueno del Menudo y no tiene el que quizás sea el único inconveniente del Menudo, los callos, un ingrediente que no a todo el mundo gusta.
+          Sin embargo si sustituimos los callos por chocos ya es más difícil que alguien le diga no a este plato ya que los chocos quedan super tiernos y gustan a todo el mundo.
+          Si pruebas este Menudo de Chocos te aseguro que se va a convertir en uno de tus potajes favoritos y que lo prepararás muchas veces durante el año. 
+          Además, tiene la ventaja de que es uno de esos potajes que sientan bien en cualquier época del año, haga frío o calor. 
+          De hecho, a mi me encanta prepararlo en verano y acompañarlo de un tinto de verano bien fresquito ;)
+          No te olvides mucho pan para mojar, aunque no esté en la lista de ingredientes es imprescindible para disfrutar de un buen menudo. A la cocina!!
+      </comentarios>
+      <fotos>
+          <foto>http://www.receta.com/foto1.jpg</foto>  
+          <foto>http://www.recetascocina.com/foto2.jpg</foto>    
+      </fotos>
+    </receta>
+    
+</recetascocina>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Contacto Escribenos tu receta</title>
+			<link rel="stylesheet" href="styles/reset.css" type="text/css">
+			<link rel="stylesheet" href="styles/style.css" type="text/css">
+	</head>
+	<body>
+		
+		<!--#include virtual="includes/header.html"-->
+		<!--#include virtual="includes/nav.html" -->
+		<!--#include virtual="includes/aside.html" -->	
+		
+		<div class="cont">
+			<section>
+				<article class="cont">
+<h1>Contáctanos</h1>
+<h2>Escribenos tu receta!</h2>
+	<form class="formulario" action="#" method="get">
+
+				<table border="1">
+					<tr>
+						<th colspan="2" style="text-align:left;">Formulario de envío de receta:</th>
+						
+					</tr>
+					<tr>	
+						<td><label form="usuario">Nombre: </label> </td><td> <input style="width:100%;" type="text" name="nombre" value=""></td>		
+					</tr>	
+					<tr>
+						<td><label form="dni">Apellidos: </label></td><td>  <input style="width:100%;" type="text" name="apellidos" value="" ></td>	
+					</tr>
+					<tr>
+						<td><label form="titulo">Titulo:</label></td>
+						<td><input style="width:100%;" type="text" id="titulo" name="titulo"></td>
+					</tr>
+					<tr>
+						<td><label form="email">Email:</label></td>
+						<td><input style="width:100%;" type="email" id="email" name="email"></td>
+					</tr>
+
+
+					<tr>
+						<td><label form="foto">Subir fotos:</label></td>
+						<td style="text-align:left;" id="foto">
+							<input type="file" name="foto">
+						</td>
+					</tr>
+					<tr>
+						<td><label form="pais">Receta:</label></td>
+						<td style="text-align:left;" id="pais">
+							<textarea name="comentarios" rows="12" cols="39">Escribe aquí tu receta</textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align:center;">
+							<input type="submit" name="" value="Enviar">
+						</td>						
+					</tr>
+				</table>
+		</form>
+
+
+<table id=linkpagina>
+	<tr>
+		<td class="linkpagina" style="text-align:left;"><a class="linkpagina" href="index.shtml">Inicio</a></td>
+		<td class="linkpagina" style="text-align:right;"><a class="linkpagina" href="Recetas.shtml">Recetas</a>
+		</td>
+	</tr>
+</table>
+
+</article>
+<article>
+</article>
+			</section>
+		</div>
+	<!--#include virtual="includes/footer.html" -->
+	</body>
+</html>

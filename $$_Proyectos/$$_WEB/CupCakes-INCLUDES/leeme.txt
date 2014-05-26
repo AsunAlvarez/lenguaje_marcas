@@ -1,0 +1,12 @@
+** tengo la web subida con server side includes y normal:
+
+
+
+// *** pagina con SERVER SIDE INCLUDES *** 
+http://aplicaciones.ies-azarquiel.es/~jsantana/cupcakes-includes/index.shtml
+
+
+
+
+//**** pagina NORMAL *******
+http://aplicaciones.ies-azarquiel.es/~jsantana/cupcakes/

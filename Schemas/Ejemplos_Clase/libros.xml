@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:/Users/Javier/Desktop/$$_DAW/Lenguaje_Marcas/Schemas/libro.xsd">
+    <isbn>12345865</isbn>
+    <titulo>El Quijote</titulo>
+    <autor>Cervantes</autor>
+    <personaje>
+        <nombre>El Quijote</nombre>
+        <amigos>Sancho</amigos>
+        <calificacion>extrovertido</calificacion>        
+    </personaje>
+    <personaje>
+        <nombre>Sancho</nombre>
+        <amigos>El Quijote</amigos>
+        <calificacion>pragmatico</calificacion>        
+    </personaje>        
+</libro>

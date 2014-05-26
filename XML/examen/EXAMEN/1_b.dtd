@@ -1,0 +1,43 @@
+<!ELEMENT vueltaciclista (etapa+)>
+<!ELEMENT etapa (equipos, ciclistas, puertos, clasificacion, maillots)+>
+<!ATTLIST etapa
+          kilometros NMTOKENS #REQUIRED
+          llegada CDATA #REQUIRED
+          numero CDATA #REQUIRED
+          salida CDATA #REQUIRED>
+<!ELEMENT equipos (equipo*)>
+<!ELEMENT equipo (#PCDATA)>
+      <!ATTLIST equipo
+                director CDATA #REQUIRED
+                nombre CDATA #REQUIRED>
+<!ELEMENT ciclistas (ciclista*)>
+<!ELEMENT ciclista (nombre?, edad?)>
+<!ATTLIST ciclista
+          dorsal NMTOKEN #IMPLIED
+          equipo CDATA #IMPLIED
+          id ID #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT puertos (puerto*)>
+<!ELEMENT puerto (clasificacion*)>
+<!ATTLIST puerto
+          altura CDATA #REQUIRED
+          categoria CDATA #REQUIRED
+          km CDATA #REQUIRED
+          pendientemedia CDATA #REQUIRED>
+<!ELEMENT clasificacion (final?, posicion*)>
+<!ELEMENT posicion (#PCDATA)>
+<!ATTLIST posicion
+          hora CDATA #REQUIRED
+          min CDATA #REQUIRED
+          nombre CDATA #REQUIRED
+          numero CDATA #REQUIRED
+          seg CDATA #REQUIRED>
+<!ELEMENT final (posicion+)>
+<!ELEMENT maillots (general, puntos, montana, combinada)>
+<!ELEMENT general (color, nombre)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT puntos (color, nombre)>
+<!ELEMENT montana (color, nombre)>
+<!ELEMENT combinada (color, nombre)>
+

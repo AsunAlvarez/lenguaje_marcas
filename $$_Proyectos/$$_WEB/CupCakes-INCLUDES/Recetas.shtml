@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Recetas</title>
+			<link rel="stylesheet" href="styles/reset.css" type="text/css">
+			<link rel="stylesheet" href="styles/style.css" type="text/css">
+	</head>
+	<body>
+		<!--#include virtual="includes/header.html"-->
+		<!--#include virtual="includes/nav.html" -->
+		<!--#include virtual="includes/aside.html" -->	
+		
+		<div class="cont">
+			<section>
+				<article class="cont">
+
+<h1>Recetas</h1>
+<h2></h2>
+<!-- INICIO CUERPO DE LA PAGINA -->
+
+<table >
+	<tr><td class="receta"><a href="miprimercupcake.shtml">Pasos para hacer un Cupcake 1ª Parte</a></td></tr>
+
+	<tr><td class="receta"><a href="miprimercupcake2.shtml">Pasos para hacer un Cupcake 2ª Parte</a></td></tr>
+
+	<tr><td class="receta"><a href="cupcakefresa.shtml">Cupcake de Fresa</a></td></tr>
+
+</table>
+
+
+
+
+
+
+
+
+<!-- FIN CUERPO DE LA PAGINA -->
+<table id=linkpagina style="margin-top:200px;">
+	<tr>
+		<td class="linkpagina" style="text-align:left;"><a class="linkpagina" href="index.shtml">Inicio</a></td>
+		<td class="linkpagina" style="text-align:right;"><a class="linkpagina" href="Recetas.shtml">Recetas</a>
+		</td>
+	</tr>
+</table>
+</article>
+<article>
+
+</article>
+			</section>
+		</div>
+	<!--#include virtual="includes/footer.html" -->
+	</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>como hacer tu primer Cupcake 2ª parte</title>
+			<link rel="stylesheet" href="styles/reset.css" type="text/css">
+			<link rel="stylesheet" href="styles/style.css" type="text/css">
+	</head>
+	<body>
+		<!--#include virtual="includes/header.html"-->
+		<!--#include virtual="includes/nav.html" -->
+		<!--#include virtual="includes/aside.html" -->	
+		
+		<div class="cont">
+			<section>
+				<article class="cont">
+<h1>Cómo hacer tu primer Cupcake 2ª Parte</h1>
+<h2>Utensilios necesarios</h2>
+<p>
+Las mejores que he probado son las de House of Marie, que son las fucsias y las de cuatros negros y blancos. Las de casa que son las moradas y rosas con lunares, son un horror, pierden todo el color en el horneado. Las fucsias con rayitas de colores son pasables, aunque no recuerdo la marca de estas, las de dibujos de cupcakes son de Wilton y tampoco aguantaron demasiado bien y las del fondo, son de PME, navideñas, pero todavía no las he probado. He oido maravillas de las cápsulas de la marca Culpitt pero aún no puedo opinar porque no tengo ningunas.
+</p>
+<p>
+Por último, una vez hayamos horneado los cupcakes, se hayan enfriado y tengamos preparada la cobertura, necesitaremos decorarlos con una manga pastelera. Si quieres un resultado chulo y vistoso, lo mejor es que compres una boquilla Wilton 1M y unas cuantas mangas desechables:
+</p>
+<img class="imagen" src="images/miPrimerCupcake/boquilla.gif" alt="bokilla">
+<img class="imagen" src="images/miPrimerCupcake/mangas.gif" alt="mangas2">
+
+<p>
+Hasta ahora he usado estas mangas desechables de thermomix que me dio mi tía pero valen cualquiera, simplemente cortas como 2 cm del final de la manga e introduces la boquilla, luego llenas la manga de buttercream y a decorar! La boquilla 1M te permitirá hacer las típicas rosas, son sencillas y quedan muy resultonas:
+</p>
+<img class="imagen" src="images/miPrimerCupcake/cupcakesVainilla3.gif" alt="vainilla 3">
+<img class="imagen" src="images/miPrimerCupcake/cupcakeRosa.gif" alt="cupcake rosa">
+<p>
+Bueno y esto es todo por hoy. Si estas pensando en empezar y has topado con esta entrada, espero haberte ayudado a resolver tus dudas. Saludos!
+</p>
+
+
+<table id=linkpagina>
+	<tr>
+		<td class="linkpagina" style="text-align:left;"><a class="linkpagina" href="miprimercupcake.shtml">Pasos para preparar un Cupcake 1ª parte</a></td>
+		<td class="linkpagina" style="text-align:right;"><a class="linkpagina" href="cupcakefresa.shtml">Cupcake Fresa</a>
+		</td>
+	</tr>
+</table>
+
+</article>
+<article>
+</article>
+			</section>
+		</div>
+<!--#include virtual="includes/footer.html" -->
+	</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>MARGENES</title>
+			<link rel="stylesheet" href="">
+	
+			<style type="text/css">
+				section{
+					background-color: rgb(200,255,200);
+					width: 600px;
+					min-width: 400px; /*WIDTH se hace  grande como pueda, pero no puede ser menor que el min-width*/
+
+					margin:40px auto;  /* IMPORTANTE PARA CENTRAR CUALQUIER ETIQUETA EN EL CENTRO DE LA PAGINA */
+									/* MARGEN:   superior:0px,  inferior: 0px   derecho:AUTO   izquierdo: AUTO*/
+					
+
+					/*ESTO DE ABAJO SIRVE PARA QUE LAS ETIQUETAS HTML SE HAGAN CON EL MISMO TAMAÑO*/
+					/* Ejemplo en las section de abajo salen los recuadros del mismo tamaño da igual el texto*/ 
+					-webkit-box-sizing:border-box;
+					-box-sizing:border-boxs;
+					moz-box-sizing:border-boxs;
+				}
+				.simple{
+					border:2px solid green;
+				}
+				.grueso{
+					border:20px solid green;
+				}
+				article{
+					border: 5px solid black;
+				}
+				.estatico{
+					position: static;
+				}
+				.relativo{
+					position: relative;
+					left: 50px;
+					top: -20px;
+					background-color: rgba(240,180,250,0.5);
+					border: 5px solid rgba(255,0,0,0.5);
+				}
+				.absoluto{
+					position: absolute;
+					left: 100px;
+
+				}
+				/* SUPER UTIL PARA CREAR LOS MENUS FLOTANTES FIJOS*/
+				.fijo{
+					width: 200px;
+					position: fixed;
+					right: 0px;
+					bottom: 0px;
+					font-size: 0.1em;
+				}
+			</style>
+	</head>
+	<body>
+		<section class="simple">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</section>
+
+		<section class="grueso">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</section>
+		<section >
+		<article class="estatico">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</article>
+		<article class="relativo"> 
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</article>
+		<article class="absoluto">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</article>
+		<article class="fijo">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</article>
+		</section>
+	</body>
+</html>

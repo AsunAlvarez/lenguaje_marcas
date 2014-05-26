@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                  xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+  <libro>
+    <isbn>isbn111111111-01</isbn>
+    <titulo>La vida está en otra parte</titulo>
+    <autor fechaNacimiento="1945-06-30">Milan Kundera</autor>
+    <genero>Romance</genero>
+    <fechaPublicacion año="1973"></fechaPublicacion>
+    <idioma>ES</idioma>
+    <paginas>554</paginas>
+  </libro>
+  
+  <libro>
+    <isbn>isbn222222222-02</isbn>
+    <titulo>Pantaleón y las visitadoras</titulo>
+    <autor fechaNacimiento="1936-03-26">Mario Vargas Llosa</autor>
+    <genero>Historico</genero>
+    <fechaPublicacion año="1973"></fechaPublicacion>
+    <idioma>ES</idioma>
+    <paginas>0</paginas>
+  </libro>
+
+  <libro>
+    <isbn>isbn333333333-03</isbn>
+    <titulo>La reine Margot </titulo>
+    <autor fechaNacimiento="1978-03-31">Alexandre Dumas</autor>
+    <genero>Fantasia</genero>
+    <fechaPublicacion año="2004"></fechaPublicacion>
+    <idioma>FR</idioma>
+    <paginas>361</paginas>
+  </libro>
+  
+</biblioteca>

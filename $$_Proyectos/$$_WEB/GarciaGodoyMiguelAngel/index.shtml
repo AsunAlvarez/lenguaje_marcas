@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+	<html lang="es-es">
+	<head>
+		<meta charset="utf-8">			
+		<title>La exploración de Marte</title>
+		<meta name="author" content="Miguel Ángel García Godoy">
+		<meta name="description" content="Evolución histórica de la exploración de Marte">
+		<meta name="keywords" content="marte, exploración, sonda, misión, espacio, planetas">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/principal.css">
+		<link rel="icon" type="image/png" href="media/marte.png">
+	</head>
+	<body>
+		<!--#include virtual="cabecera.html"-->
+		<!--#include virtual="enlaces.html"-->
+		<section class="contenido">
+			<h1>Introducción y resumen de la exploración de Marte</h1>
+			<article class="planeta_rojo">
+				<h2 id="planeta_rojo">Marte, "El Planeta Rojo"</h2>
+				<p>Marte es el cuarto planeta del Sistema Solar más cercano al Sol. Llamado así por el dios de la guerra de la mitología romana Marte, recibe a veces el apodo de Planeta rojo debido a la apariencia rojiza que le confiere el óxido de hierro que domina su superficie. Tiene una atmósfera delgada formada por dióxido de carbono, y dos satélites: <a href="http://es.wikipedia.org/wiki/Fobos_%28sat%C3%A9lite%29" title="Fobos" target="_blank">Fobos</a> y <a href="http://es.wikipedia.org/wiki/Deimos_%28sat%C3%A9lite%29" title="Deimos" target="_blank">Deimos</a>. Forma parte de los llamados planetas telúricos (de naturaleza rocosa, como la Tierra) y es el planeta interior más alejado del Sol. Es, en muchos aspectos, el más parecido a la Tierra.</p>
+				<p>Aunque en apariencia podría parecer un planeta muerto, no lo es. Sus campos de dunas siguen siendo mecidos por el viento marciano, sus casquetes polares cambian con las estaciones e incluso parece que hay algunos pequeños flujos estacionales de agua.</p>
+				<p><a href="http://es.wikipedia.org/wiki/Tycho_Brahe" title="Tycho Brahe" target="_blank">Tycho Brahe</a> midió con gran precisión el movimiento de Marte en el cielo. Los datos sobre el movimiento retrógrado aparente (los llamados "lazos") permitieron a <a href="http://es.wikipedia.org/wiki/Johannes_Kepler" title="Kepler" target="_blank">Kepler</a> hallar la naturaleza elíptica de su órbita y determinar las leyes del movimiento planetario conocidas como leyes de Kepler.</p>
+				<p>Forma parte de los planetas superiores a la Tierra, que son aquellos que nunca pasan entre el Sol y la Tierra. Sus fases (porción iluminada vista desde la Tierra) están poco marcadas, hecho que es fácil de demostrar geométricamente. Considerando el triángulo Sol-Tierra-Marte, el ángulo de fase es el que forman el Sol y la Tierra vistos desde Marte. Alcanza su valor máximo en las cuadraturas cuando el triángulo STM es rectángulo en la Tierra. Para Marte, este ángulo de fase no es nunca mayor de 42°, y su aspecto de disco giboso es análogo al que presenta la Luna 3,5 días antes o después de la Luna llena. Esta fase, visible con un telescopio de aficionado, no logró ser vista por <a href="http://es.wikipedia.org/wiki/Galileo_Galilei" title="Galileo" target="_blank">Galileo</a>, quien sólo supuso su existencia.</p>
+				<aside>
+					<p>Texto obtenido de la <a href="http://es.wikipedia.org/wiki/Marte_%28planeta%29" title="Marte en la Wikipedia" target="_blank">Wikipedia</a></p>	
+				</aside>	
+				<aside class="fotografias">
+					<h3>Fotografías en alta resolución de la sonda Mars Express (ESA):</h3>					
+					<img src="media/polonorte.jpg" alt="Polo Norte" title="El Polo Norte de Marte">					
+					<img src="media/arima.jpg" alt="Los gemelos Arima" title="Los Gemelos Arima">
+					<footer class="pie_foto">
+						<p>A la izquierda: El Polo Norte de Marte. &copy; ESA/ASI/NASA/JPL/La Sapienza University/INAF (A. Frigeri)</p>
+						<p>A la derecha: Los Gemelos Arima. &copy; ESA/DLR/FU Berlin (G. Neukum)</p>
+					</footer>
+					<h3>Video de la NASA sobre los 5 años de misión de los Rover Spirit y Opportunity:</h3>
+					<iframe src="http://www.youtube.com/embed/8u6gNH6xIfc?rel=0" allowfullscreen></iframe>
+					
+				</aside>
+				<!--#include virtual="pie_articulo.html"-->				
+			</article>
+			<article>
+				<h2 id="exploracion_marte">La Exploración de Marte</h2>
+				<p>Según <a href="https://www.fdi.ucm.es/profesor/lvazquez/" title="Luis Vázquez Martínez" target="_blank">Luis Vázquez Martínez</a>, de la <a href="http://www.rac.es/0/0_1.php" title="Real Academia de Ciencias Exactas, Físicas y Naturales" target="_blank">Real Academia de Ciencias Exactas, Físicas y Naturales</a>, la exploración de Marte <cite>es parte de un objetivo científico de largo alcance para entender la formación e historia del sistema solar. Su exploración está siendo el punto focal de las misiones planetarias y ofrece un escenario de esfuerzos conjuntos de varios países y grupos de investigación. En particular, esto supone una colaboración activa entre científicos e ingenieros en el marco de la comunidad internacional. De todo ello se deriva un gran arrastre científico y tecnológico.</cite></p>
+				<p>Añade Vázquez Martínez que <cite>cada 26 meses hay oportunidad de enviar misiones a Marte, al haber un alineamiento entre la Tierra, Marte y el Sol. En estas circunstancias la distancia entre los dos planetas es mínima. Dichas configuraciones se conocen como oposiciones. La oposición que tuvo lugar en 2003 correspondió a la menor distancia entre los dos planetas en 60.000 años.</cite></p> 
+				<p>Desde 1960 ha habido 46 misiones a Marte. La Unión Soviética/Rusia ha enviado 21, Estados Unidos 21, Europa 1, Japón 1, China 1 e India 1.</p>
+				<table>
+					<caption>Resumen de las misiones a Marte</caption>
+					<thead>
+						<tr>
+							<th>Nombre</th>				
+							<th class="bandera">País</th>
+							<th>&nbsp;</th>
+							<th>Lanzamiento</th>
+							<th>Desenlace</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="1960-1970.shtml#marsnik_1_2" title="Marsnik 1">Marsnik 1</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>10/10/1960</td>
+							<td>Explosionó antes de alcanzar la órbita terrestre</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#marsnik_1_2" title="Marsnik 2">Marsnik 2</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>14/10/1960</td>
+							<td>Explosionó antes de alcanzar la órbita terrestre</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#sputnik_29" title="Sputnik 29">Sputnik 29</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>24/10/1962</td>
+							<td>Explosionó en la órbita terrestre</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#mars_1" title="Mars 1">Mars 1</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>01/11/1962</td>
+							<td>Pasó a 200.000 Km. de Marte</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#sputnik_31" title="Sputnik 31">Sputnik 31</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>04/11/1962</td>
+							<td>Falló en la órbita terrestre</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#zond_1964a" title="Zond 1964 A">Zond 1964 A</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>04/06/1964</td>
+							<td>Falló antes de alcanzar la órbita terrestre</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#mariner_3" title="Mariner 3">Mariner 3</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>05/11/1964</td>
+							<td>Entró en una órbita alrededor del Sol</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#mariner_3" title="Mariner 4">Mariner 4</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>28/11/1964</td>
+							<td>Primeras fotos de Marte (21)</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#zond_2_3" title="Zond 2">Zond 2</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>30/11/1964</td>
+							<td>Fallo en las comunicaciones</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#zond_2_3" title="Zond 3">Zond 3</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>18/07/1965</td>
+							<td>Tomó fotografías de la luna. Incógnita en el objetivo de la misión</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#mariner_6_7" title="Mariner 6">Mariner 6</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>24/02/1969</td>
+							<td>Fotos de Marte. Pasó el planeta a 3.215 Km.</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#mariner_6_7" title="Mariner 7">Mariner 7</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>27/03/1969</td>
+							<td>Fotos de Marte. Pasó el planeta a 3.516 Km.</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#mars_1969_a_b" title="Mars 1969 A">Mars 1969 A</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>27/03/1969</td>
+							<td>Falló en el lanzamiento</td>
+						</tr>
+						<tr>
+							<td><a href="1960-1970.shtml#mars_1969_a_b" title="Mars 1969 B">Mars 1969 B</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>02/04/1969</td>
+							<td>Falló en el lanzamiento</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#mariner_8_9" title="Mariner 8">Mariner 8</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>08/05/1971</td>
+							<td>Falló en el lanzamiento</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#cosmos_419" title="Cosmos 419">Cosmos 419</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>10/05/1971</td>
+							<td>Falló en el lanzamiento</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#mars_2_3" title="Mars 2">Mars 2</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>19/05/1971</td>
+							<td>Segundo satélite artificial de Marte. Módulo de superficie destruido</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#mars_2_3" title="Mars 3">Mars 3</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>28/05/1971</td>
+							<td>Tercer satélite artificial de Marte. Módulo de superficie aterrizó y emitió señales durante 20 segundos</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#mariner_8_9" title="Mariner 9">Mariner 9</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>30/05/1971</td>
+							<td>Primer satélite artificial de Marte (7.329 fotos)</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#mars_4_5_6_7" title="Mars 4">Mars 4</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>21/07/1973</td>
+							<td>Pasó a 9.846 Km. de Marte</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#mars_4_5_6_7" title="Mars 5">Mars 5</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>25/07/1973</td>
+							<td>Operativo durante 9 días en órbita marciana (60 fotos)</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#mars_4_5_6_7" title="Mars 6">Mars 6</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>05/08/1973</td>
+							<td>El módulo de superficie envió datos durante el descenso pero se estrelló</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#mars_4_5_6_7" title="Mars 7">Mars 7</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>09/08/1973</td>
+							<td>El módulo de superficie pasó a 1.500 Km. de Marte</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#viking_1_2" title="Viking 1">Viking 1</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>20/08/1975</td>
+							<td>Primeras medidas en la superficie. Operativo durante varios años</td>
+						</tr>
+						<tr>
+							<td><a href="1970-1980.shtml#viking_1_2" title="Viking 2">Viking 2</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>09/09/1975</td>
+							<td>Segundo módulo de superficie con éxito. Operativo durante varios años</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#phobos_1_2" title="Phobos 1">Phobos 1</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>07/07/1988</td>
+							<td>Fallo en las comunicaciones en el camino a Marte</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#phobos_1_2" title="Phobos 2">Phobos 2</a></td>
+							<td class="bandera"><img src="media/urss.png" alt="URSS"></td>
+							<td>URSS</td>
+							<td>12/07/1988</td>
+							<td>Contacto perdido durante la obtención de fotos del satélite Phobos</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#mars_observer" title="Mars Observer">Mars Observer</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>25/09/1992</td>
+							<td>Contacto perdido en el camino a Marte</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#mars_global_surveyor" title="Mars Global Surveyor">Mars Global Surveyor</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>07/11/1996</td>
+							<td>En funcionamiento hasta noviembre de 2006</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#mars_96" title="Mars 96">Mars 96</a></td>
+							<td class="bandera"><img src="media/rusia.png" alt="Rusia"></td>
+							<td>Rusia</td>
+							<td>16/11/1996</td>
+							<td>Falló al abandonar la órbita terrestre</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#mars_pathfinder" title="Mars Pathfinder">Mars Pathfinder</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>04/12/1996</td>
+							<td>Primer vehículo robot que aterriza. Más de 16.000 fotos enviadas</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#nozomi" title="Nozomi">Nozomi</a></td>
+							<td class="bandera"><img src="media/japon.png" alt="Japón"></td>
+							<td>Japón</td>
+							<td>03/07/1998</td>
+							<td>Falló antes de entrar en órbita marciana</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#mars_climate_orbiter_polar_lander" title="Mars Climate Orbiter">Mars Climate Orbiter</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>11/12/1998</td>
+							<td>Perdido antes de entrar en la órbita de Marte (23/09/1999)</td>
+						</tr>
+						<tr>
+							<td><a href="1980-2000.shtml#mars_climate_orbiter_polar_lander" title="Mars Polar Lander">Mars Polar Lander</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>03/01/1999</td>
+							<td>Perdido en la operación de aterrizaje</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#mars_odyssey" title="Mars Odyssey">Mars Odyssey</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>07/04/2001</td>
+							<td>Continúa en funcionamiento</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#mars_express" title="Mars Express">Mars Express</a></td>
+							<td class="bandera"><img src="media/europa.png" alt="ESA"></td>
+							<td>ESA</td>
+							<td>02/06/2003</td>
+							<td>Módulo orbital en funcionamiento. Módulo de superficie (Beagle 2) perdido</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#mars_spirit_opportunity" title="Mars Exploration Rover: Spirit">Mars Exploration Rover: Spirit</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>10/06/2003</td>
+							<td>En funcionamiento</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#mars_spirit_opportunity" title="Mars Exploration Rover: Opportunity">Mars Exploration Rover: Opportunity</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>07/07/2003</td>
+							<td>En funcionamiento</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#mars_reconnaissance_orbiter" title="Mars Reconnaissance Orbiter">Mars Reconnaissance Orbiter</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>12/08/2005</td>
+							<td>En funcionamiento</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#phoenix" title="Phoenix">Phoenix</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>04/08/2007</td>
+							<td>En funcionamiento hasta 10/11/2008</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#dawn" title="Dawn">Dawn</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>27/08/2007</td>
+							<td>En funcionamiento</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#fobos_grunt_yinghuo" title="Fobos-Grunt">Fobos-Grunt</a></td>
+							<td class="bandera"><img src="media/rusia.png" alt="Rusia"></td>
+							<td>Rusia</td>
+							<td>08/11/2011</td>
+							<td>Quedó orbitando la Tierra y se estrelló días más tarde</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#fobos_grunt_yinghuo" title="Yinghuo-1">Yinghuo-1</a></td>
+							<td class="bandera"><img src="media/china.png" alt="China"></td>
+							<td>China</td>
+							<td>08/11/2011</td>
+							<td>Quedó orbitando la Tierra y se estrelló días más tarde</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#mars_science_laboratory" title="Mars Science Laboratory">Mars Science Laboratory</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>26/11/2011</td>
+							<td>En funcionamiento</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#mars_orbiter_mission" title="Mars Orbiter Mission">Mars Orbiter Mission</a></td>
+							<td class="bandera"><img src="media/india.png" alt="India"></td>
+							<td>India</td>
+							<td>05/11/2013</td>
+							<td>Funcionando. Llegada estimada a Marte el 24/09/2014</td>
+						</tr>
+						<tr>
+							<td><a href="2000-2013.shtml#maven" title="MAVEN">MAVEN</a></td>
+							<td class="bandera"><img src="media/usa.png" alt="USA"></td>
+							<td>USA</td>
+							<td>18/11/2013</td>
+							<td>Funcionando. Llegada estimada a Marte el 22/09/2014</td>
+						</tr>
+					</tbody>
+				</table>
+				<!--#include virtual="pie_articulo.html"-->				
+			</article>			
+		</section>
+		<aside class="opinion">
+			<h2 id="opinion">Comparte tu opinión</h2>
+			<form action="opinion.shtml" method="get">					
+				<fieldset>
+					<legend>Datos personales</legend>
+					<label for="nombre">Nombre: <input type="text" class="texto" id="nombre" size="20" maxlength="20"></label>
+					<label for="apellido1">Apellido 1: <input type="text" class="texto" id="apellido1" size="20" maxlength="20"></label>
+					<label for="apellido2">Apellido 2: <input type="text" class="texto" id="apellido2" size="20" maxlength="20"></label>
+					<input type="radio" class="texto" id="hombre" name="sexo" value="hombre"><label for="hombre">Hombre</label>
+					<input type="radio" id="mujer" name="sexo" value="mujer" checked><label for="mujer">Mujer</label>		
+				</fieldset>
+				<fieldset>
+					<legend>¿Qué época/s de la exploración de Marte ha/n sido para ti la/s más provechosa/s?</legend>				
+					<input type="checkbox" id="1960_1970" name="1960_1970" value="1960_1970"><label for="1960_1970">1960-1970</label>
+					<br>
+					<input type="checkbox" id="1970_1980" name="1970_1980" value="1970_1980"><label for="1960_1970">1970-1980</label>
+					<br>
+					<input type="checkbox" id="1980_2000" name="1980_2000" value="1980_2000"><label for="1980_2000">1980-2000</label>
+					<br>
+					<input type="checkbox" id="2000_2013" name="2000_2013" value="2000_2013"><label for="2000_2013">2000-2013</label>
+				</fieldset>
+				<fieldset>
+					<legend>Comentarios:</legend>				
+					<textarea class="texto" id="comentarios" name="comentarios" cols="50" rows="10" maxlength="500" placeholder="Escribe tus comentarios..."></textarea>
+				</fieldset>
+				<fieldset>
+					<input class="boton" type="reset" name="reset" value="Borrar todo">
+					<input class="boton" type="submit" name="enviar" value="Enviar">
+				</fieldset>
+			</form>
+			<!--#include virtual="pie_articulo.html"-->		
+		</aside>
+		<!--#include virtual="pie_pagina.html"-->		
+	</body>
+</html>

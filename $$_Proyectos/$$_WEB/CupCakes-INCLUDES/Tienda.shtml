@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Fotos</title>
+			<link rel="stylesheet" href="styles/reset.css" type="text/css">
+			<link rel="stylesheet" href="styles/style.css" type="text/css">
+	</head>
+	<body>
+		<!--#include virtual="includes/header.html"-->
+		<!--#include virtual="includes/nav.html" -->
+		<!--#include virtual="includes/aside.html" -->	
+		<div class="cont">
+			<section>
+				<article class="cont">
+
+<h1>Tienda Online</h1>
+<h2></h2>
+<!-- INICIO CUERPO DE LA PAGINA -->
+
+<table class="tienda">
+
+<tr>
+	<th>Producto</th>
+	<th>Precio</th>
+	<th>Cantidad</th>
+</tr>
+
+<tr>
+	<td><img class="imagenTienda" src="images/tienda/fondant-100-g-morado.jpg" alt="fondant-100-g-morado"></td>
+	<td>1.5 €</td>
+	<td class="cantidad"><input style="width:100%;" type="text" id="cantidad1" name="titulo"></td>
+</tr>
+<tr>
+	<td><img class="imagenTienda" src="images/tienda/spray-desmoldante-crefino-credin.jpg" alt="spray-desmoldante-crefino-credin.jpg"></td>
+	<td>2 €</td>
+	<td class="cantidad"><input style="width:100%;" type="text" id="cantidad2" name="titulo2"></td>
+</tr>
+<tr>
+	<td><img class="imagenTienda" src="images/tienda/espatula-reposteria-nylon.jpg" alt="espatula-reposteria-nylon.jpg">
+	</td>
+	<td>3.2 €</td>
+	<td class="cantidad"><input style="width:100%;" type="text" id="cantidad3" name="titulo3"></td>
+</tr>
+<tr>
+	<td class="total"></td>
+	<td class="total">Total:</td>
+	<td class ="total"><input style="width:100%;" type="text" id="total" name="total"></td>
+</tr>
+</table>
+
+
+
+<!-- FIN CUERPO DE LA PAGINA -->
+<table id=linkpagina>
+	<tr>
+		<td class="linkpagina" style="text-align:left;"><a class="linkpagina" href="index.shtml">Inicio</a></td>
+		<td class="linkpagina" style="text-align:right;"><a class="linkpagina" href="Recetas.shtml">Recetas</a>
+		</td>
+	</tr>
+</table>
+
+</article>
+<article>
+</article>
+			</section>
+		</div>
+<!--#include virtual="includes/footer.html" -->
+	</body>
+</html>

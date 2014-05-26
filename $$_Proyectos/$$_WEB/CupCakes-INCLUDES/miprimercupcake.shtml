@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Pasos para hacer un Cupcake 1ª Parte</title>
+			<link rel="stylesheet" href="styles/reset.css" type="text/css">
+			<link rel="stylesheet" href="styles/style.css" type="text/css">
+	</head>
+	<body>
+		<!--#include virtual="includes/header.html"-->
+		<!--#include virtual="includes/nav.html" -->
+		<!--#include virtual="includes/aside.html" -->	
+		
+		<div class="cont">
+			<section>
+				<article class="cont">
+<h1>Pasos para hacer un Cupcake 1ª Parte</h1>
+<h2>Kit básico de supervivencia</h2>
+
+<p>
+Todos los que hemos decidido empezar a hacer cupcakes, nos hemos hecho la misma pregunta ¿Cómo empiezo? Lees palabras como colorantes en gel, pasta, polvo o líquidos, purpurinas, fondant, pasta de modelaje, buttercream, butterswiss, marcas desconocidas como PME, Wilton, Sugarflair, Regalice… Después de un rato buscando recetas, puedes llegar a colapsarte… En serio, yo aún sigo descubriendo cosas nuevas cada día, y es que hay mucho por aprender!
+</p>
+<p>
+He decido escribir esta entrada con el único objetivo de repasar todas las cosas que son imprescindibles antes de empezar a hornear tus primeros cupcakes. Pero sólo lo básico e indispensable, luego ya puedes ampliar la colección hasta el infinito y más allá!
+</p>
+<img class="imagen" src="images/miPrimerCupcake/cupcakesVainilla1.gif" alt="vainilla1">
+
+<h2>Ingredientes que utilizaremos</h2>
+<p>Lo primero que vamos a hacer, es repasar los ingredientes de los cupcakes básicos. Para la masa necesitamos harina, mantequilla, levadura, leche, azúcar, huevos y extracto de vainilla. Salvo el extracto de vainilla, todo lo demás lo encontramos en cualquier supermercado. Si vas a hacer un pedido a alguna tienda especializada o hay alguna en tu ciudad, seguro que ahí lo encuentras, sino puedes sustituirlo por aroma de vainilla, que lo encontrarás en los hipermercados.</p>
+<p>Yo compré esté en carrefour:</p>
+<img class="imagen" src="images/miPrimerCupcake/vainillaAroma.gif" alt="Aroma de vainilla carrefour">
+<p>
+Para el buttercream necesitamos mantequilla, leche, extracto de vainilla y azúcar glass. El azúcar glass también lo venden en los supermercados, de la marca azucarera y en botes de 250 g. Si vas a ir a alguna tienda especializada en productos de repostería, puedes aprovechar y comprarlo por kilos, que sale mejor de precio y para el buttercream se necesita mucho azúcar glass!
+</p>
+<h2>
+Utensilios necesarios
+</h2>
+<p>
+Molde para cupcakes/muffins. Este es el que yo utilizo:
+</p>
+
+<img class="imagen" src="images/miPrimerCupcake/bandeja.gif" alt="bandeja">
+<p>
+Yo los prefiero así, metalizados y de 12. Si quiero hacer menos, pues solo pongo 6-8 papelitos y no tengo que transportarlos uno a uno como pasa con los moldes de silicona. Sin embargo, si tienes moldes de silicona, puedes utilizarlos sin problemas.
+</p>
+<p>
+También necesitamos cápsulas de papel. Las primeras pruebas las hice con las que venden blancas en cualquier supermercado, ahora ya voy teniendo un surtido interesante, os enseño algunas de ellas:
+</p>
+<img class="imagen" src="images/miPrimerCupcake/capsular.gif" alt="capsul">
+<img class="imagen" src="images/miPrimerCupcake/capsular2.gif" alt="capsul2">
+
+<table id=linkpagina>
+	<tr>
+		<td class="linkpagina" style="text-align:left;"><a class="linkpagina" href="index.shtml">Inicio</a></td>
+		<td class="linkpagina" style="text-align:right;"><a class="linkpagina" href="miprimercupcake2.shtml">Continuar Segunda Parte.</a>
+		</td>
+	</tr>
+</table>
+
+</article>
+<article>
+</article>
+			</section>
+		</div>
+	<!--#include virtual="includes/footer.html" -->
+	</body>
+</html>

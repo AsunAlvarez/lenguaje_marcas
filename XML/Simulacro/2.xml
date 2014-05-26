@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<futbol >
+    <partido>
+        <id>54442</id>
+        <competition>
+            <nombre>Champions League</nombre>
+            <año>2013</año>
+            <jornada>Octavos</jornada>        
+        </competition>
+        
+        <equipos>
+            <local>Barcelona</local>
+            <visitante>Milan</visitante>
+            <resultado>1-0</resultado>
+        </equipos>
+        
+        <bandera>
+            <local>www.fc-barcelona.es</local>
+            <visitante>www.fc-milan.it</visitante>
+        </bandera>
+        
+        <info>
+            <comienzopartido>
+                <fecha>12/03/2013</fecha>
+                <hora>20:45</hora>
+            </comienzopartido>
+            <estado>jugando</estado>
+            <minutogeneracionxml>65</minutogeneracionxml>
+        </info>
+ 
+        <canalesretransmision>
+            <canal>
+                  <nombre>Canal+ Liga de Campeones</nombre>
+                  <logo>www.canal+camp.com</logo>
+            </canal>
+        </canalesretransmision>
+            
+    </partido>
+    
+</futbol>

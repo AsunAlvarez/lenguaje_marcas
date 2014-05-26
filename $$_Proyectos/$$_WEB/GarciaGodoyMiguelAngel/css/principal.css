@@ -1,0 +1,364 @@
+/*================================
+
+          A  U  T  O  R  
+
+     Miguel Ángel García Godoy
+
+     Asignatura: Lenguajes de Marcas
+     1º DAW IES Azarquiel (Toledo)
+
+     Archivo CSS principal para el
+     estilo del sitio Web 
+     "La exploración de Marte"
+
+  ================================*/
+
+@font-face {
+
+	font-family: cruiser;
+	src: url(../fonts/cruiser.woff);
+}
+
+body {
+
+	background-color: #D3C8BE;
+	font-family: 'arial', 'verdana';
+}
+
+body * {
+
+	color: #452824;
+}
+
+.cabecera {
+
+	width: 80%;
+	margin: 0 auto;	
+}
+
+.cabecera img {
+
+	width: 100%;	
+}
+
+.menu_cabecera {
+
+	width: 100%;			
+	text-align: center;
+	background-color: #635358;
+}
+
+.menu_cabecera li {
+
+	display: inline;
+}
+
+.menu_cabecera li a {
+
+	display: inline-block;
+	width: 18%;
+	padding: 2% 0;
+	margin: 0.6%;	
+	background-color: #997B73;		
+	font-family: 'cruiser', 'arial', 'verdana';	
+	font-size: 0.9em;	
+	text-align: center;
+	text-decoration: none;	
+}
+
+.menu_cabecera li a:hover {
+
+	background-color: #342424;
+	color: #E2D9C8;
+	font-weight: bold;
+}
+
+.enlaces {
+
+	width: 15%;
+	float: left;
+	margin-left: 10%;
+	text-align: center;	
+}
+
+
+.enlaces h2 {
+
+	margin-top: 8%;
+	margin-bottom: 2%;
+	font-family: 'cruiser', 'arial', 'verdana';
+	font-size: 0.7em;
+	text-align: left; 
+}
+
+.enlaces img {
+
+	width: 25%;
+	margin: 2%;		
+}
+
+.enlaces .saturno {
+
+	width: 60%;	
+}
+
+.enlaces a {
+
+	display: block;
+	background-color: #997B73;
+	font-size: 0.8em;
+	padding: 5%;
+	margin-bottom: 2%;
+	text-decoration: none;
+}
+
+.enlaces a:hover {
+
+	background-color: #342424;
+	color: #E2D9C8;
+	font-weight: bold;
+}
+
+.contenido {
+
+	width: 63%;
+	float: left;
+	margin-top: 2.1%;
+	padding-left: 2%;		
+}
+
+.contenido h1 {
+
+	font-family: 'cruiser', 'arial', 'verdana';
+	margin-bottom: 1.5em;
+	background-color: rgba(187,111,66,0.35);
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	margin-top: 0.25em;
+}
+
+.contenido h2 {
+
+	font-family: 'cruiser', 'arial', 'verdana';
+	margin-bottom: 1.5em;
+}
+
+.contenido h3 {
+
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
+	font-weight: bold;
+}
+
+.contenido p {
+
+	text-align: justify;
+	line-height: 1.2em;
+	margin-bottom: 1.5em;
+}
+
+.contenido a, aside a {
+
+	text-decoration: none;
+	color: #BB6F42;
+	font-weight: bold;
+}
+
+.contenido a:hover, aside a:hover {
+
+	text-decoration: underline;	
+}
+
+.contenido article {
+
+	border-bottom: 0.5em solid #BB6F42;
+	margin-bottom: 2em;
+}
+
+cite {
+
+	font-style: italic;
+}
+
+
+.fotografias img {
+
+	width: 49%;		 
+}
+
+.fotografias iframe {
+
+	width: 49%;	
+	min-height: 315px;	
+}
+
+
+footer p, aside p {
+
+	font-size: 0.8em;	
+}
+
+.pie_foto p {
+	
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+.pie_articulo li {
+
+	display: inline-block;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+	margin-right: 2em;
+}
+
+table {
+
+	background-color: rgba(187,111,66,0.2);
+	font-size: 0.8em;
+}
+
+table caption {
+	
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+table img {
+
+	width: 3em;	
+}
+
+.bandera {
+	
+	padding-right: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+thead th {
+	
+	font-size: 1.2em;
+	font-weight: bold;	
+	padding: 0.3em 1.25em;
+	text-align: left;	
+	background-color: rgba(187,111,66,0.75);
+}
+
+td {
+
+	padding: 0.3em 1.5em;
+	border-bottom: 0.2em solid #BB6F42;
+	vertical-align: middle;
+}
+
+.opinion {
+
+	clear: both;
+	width: 63%;	
+	margin-left: 27%;	
+	border-bottom: 0.5em solid #BB6F42;
+	margin-bottom: 2em;
+}
+
+.opinion h2 {
+	
+	font-family: 'cruiser', 'arial', 'verdana';
+	margin-bottom: 1.5em;
+}
+
+.opinion legend {
+
+	font-weight: bold;
+	background-color: #CBA993;
+	padding: 0.2em;
+}
+
+.opinion label {
+
+	font-size: 0.8em;	
+}
+
+.opinion fieldset {
+
+	background-color: #CBA993;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding: 1em;
+}
+
+.opinion .texto {
+
+	background-color: #D3C8BE;
+	border: 0px;
+}
+
+
+.opinion .texto:focus {
+
+	background-color: #BB6F42;	
+}
+
+.boton {
+
+	font-family: 'cruiser', 'arial', 'verdana';
+	background-color: #997B73;
+	padding: 1em;
+	margin-right: 1em;
+	border: 0px;
+}
+
+.boton:hover {
+
+	background-color: #342424;
+	color: #E2D9C8;
+	font-weight: bold;
+}
+
+.pie_pagina {
+
+	clear: both;
+	width: 79%;	
+	margin-left: 10%;
+	margin-bottom: 1%;
+	padding: 0.5%;
+	line-height: 1em;	
+	text-align: center;
+	background-color: rgba(37,55,82,0.1);
+}
+
+.pie_pagina a {
+
+	text-decoration: none;
+	color: #BB6F42;
+	font-weight: bold;
+}
+
+.pie_pagina a:hover {
+
+	text-decoration: underline;	
+}
+
+.validador_css {
+
+	border: 0px;
+	width: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

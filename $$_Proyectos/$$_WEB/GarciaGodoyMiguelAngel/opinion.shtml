@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html lang="es-es">
+	<head>
+		<meta charset="utf-8">			
+		<title>Opinión</title>
+		<meta name="author" content="Miguel Ángel García Godoy">
+		<meta name="description" content="Mensaje de recepción de opinión del usuario">
+		<meta name="keywords" content="marte, exploración, sonda, misión, espacio, planetas">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/principal.css">
+		<link rel="icon" type="image/png" href="media/marte.png">
+	</head>
+	<body>
+		<!--#include virtual="cabecera.html"-->
+		<!--#include virtual="enlaces.html"-->
+		<section class="contenido">
+			<h1>Opinión</h1>
+			<article>				
+				<p>Gracias por participar compartiendo su opinión personal. Espero que haya disfrutado de su particular exploración de Marte a lo largo de la historia.</p>				
+				<!--#include virtual="pie_articulo.html"-->				
+			</article>									
+		</section>
+		<!--#include virtual="pie_pagina.html"-->		
+	</body>
+</html>

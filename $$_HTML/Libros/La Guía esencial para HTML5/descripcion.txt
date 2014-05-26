@@ -1,0 +1,15 @@
+Descripción:
+HTML5 se abre una gran cantidad de nuevas vías para la aplicación y el desarrollo del juego en la web. Juegos Ahora se pueden crear e interactuaron con directamente en HTML, sin necesidad de los usuarios para descargar plugins adicionales, o para que los desarrolladores aprendan nuevos idiomas. Nuevas características importantes, tales como la etiqueta Canvas permiten dibujar directamente en la página web. La etiqueta de audio permite sonidos que se activan y se reproducen desde el código HTML, el API WebSockets facilita la comunicación en tiempo real, y la API de almacenamiento
+local permite que los datos tales como puntuaciones altas o preferencias de juego que se le mantenga en la computadora de un usuario para la recuperación próxima vez juegan. Todas estas características y muchas más están cubiertas en La guía esencial para HTML5.
+
+Contenido:
+Capítulo 1. Los fundamentos
+Capítulo 2. Dice Game
+Capítulo 3. Bouncing Ball
+Capítulo 4. Cannonball y Slingshot
+Capítulo 5. La memoria (también conocido como Concentración) Juego
+Capítulo 6. examen
+Capítulo 7. Laberintos
+Capítulo 8. Rock, Paper, Scissors
+Capítulo 9. verdugo
+Capítulo 10. veintiuna

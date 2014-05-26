@@ -1,0 +1,28 @@
+/* hola mundo */
+
+header {
+	background-color: #A0A0FF;
+	margin: 0px auto;
+	border-radius: 5px;
+	width: 30em;
+	
+
+}
+
+header h1{
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+header p{
+	color: #202050;
+	text-align: right;
+	padding: 0.5em;
+}
+
+body{
+	background-image: url('../img/2013-12-29 10.21.43.jpg');
+	background-width:100%;
+	background-repeat: none;
+	background-position: center;
+}

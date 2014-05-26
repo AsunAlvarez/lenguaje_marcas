@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title></title>
+			<link rel="stylesheet" href="barracarga.css">
+			<script>
+			  var count = 0;
+			  function rotate() {
+			    var elem1 = document.getElementById('div1');
+			    var elem2 = document.getElementById('div2');
+			    elem1.style.MozTransform = 'scale(0.5) rotate('+count+'deg)';
+			    elem2.style.MozTransform = 'scale(0.5) rotate('+count+'deg)';
+			    elem1.style.WebkitTransform = 'scale(0.5) rotate('+count+'deg)';
+			    elem2.style.WebkitTransform = 'scale(0.5) rotate('+count+'deg)';
+			    count+=45;
+			    window.setTimeout(rotate, 100);
+			  }
+			  window.setTimeout(rotate, 100);
+			</script>
+	</head>
+	<body>
+		
+		<div id="nombre">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+		<div class="bar4"></div>
+		<div class="bar5"></div>
+		<div class="bar6"></div>
+		<div class="bar7"></div>
+		<div class="bar8"></div>
+		</div>
+
+	</body>
+</html>

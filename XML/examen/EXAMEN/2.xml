@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toolbox SYSTEM "C:/Users/Javier/Desktop/$$_DAW/Lenguaje_Marcas/XML/examen/EXAMEN/2.dtd">
+<toolbox flex="1">
+<menubar>
+      <menu label="Archivo">
+            <menupopup>
+                  <menuitem label="Abrir"></menuitem>         
+                  <menuitem label="Cerrar"></menuitem>
+                  <menuseparator></menuseparator>
+                  <menuitem label="Salir"></menuitem>    
+            </menupopup>      
+      </menu>
+      <menu label="Ayuda">
+            <menupopup>
+                  <menuitem label="Manual"></menuitem>         
+            </menupopup>      
+      </menu>
+
+</menubar>
+
+
+</toolbox>

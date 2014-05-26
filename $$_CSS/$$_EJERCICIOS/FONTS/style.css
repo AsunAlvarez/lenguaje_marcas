@@ -1,0 +1,19 @@
+
+/* este tipo va en el css*/
+@import url(http://fonts.googleapis.com/css?family=Zeyada);
+
+
+
+
+body{
+	font-family: 'Zeyada', cursive;
+}
+
+
+
+.kristi{
+  
+   font-family: 'Amiri Quran';
+   font-weight: normal;
+   font-style: normal;
+} 	

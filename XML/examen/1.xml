@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arbol SYSTEM "C:/Users/Javier/Desktop/$$_DAW/Lenguaje_Marcas/XML/examen/1.dtd">
+<arbol>
+
+  <lugares>
+    <lugar nombre="Valencia" pais="España"></lugar>
+    <lugar nombre="Gandia" pais="España"></lugar>
+    <lugar nombre="Marsella" pais="Francia"></lugar>
+  </lugares>
+
+
+  <personas>
+    <persona>
+      <nombre>Pedro Ramírez Dupont</nombre>
+      <padre>Juan Ramírez Amigo</padre>
+      <madre>Jeanne Dupont</madre>
+      <nacimiento lugar="Valencia" fecha="1942-07-14"></nacimiento>
+    </persona>
+    <persona>
+      <nombre>Juan Ramírez Amigo</nombre>
+      <nacimiento lugar="Gandia" fecha="1918-11-19"></nacimiento>
+    </persona>
+    <persona>
+      <nombre>Jeanne Dupont</nombre>
+      <nacimiento lugar="Marsella"></nacimiento>
+    </persona>
+  </personas>
+</arbol>

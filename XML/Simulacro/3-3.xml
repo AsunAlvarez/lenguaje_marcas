@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pasediapositivas [
+  <!ELEMENT pasediapositivas (diapositiva*)>
+        <!ATTLIST pasediapositivas titulo NMTOKENS #REQUIRED>
+        <!ATTLIST pasediapositivas fecha NMTOKENS  #REQUIRED>
+        <!ATTLIST pasediapositivas autor CDATA #REQUIRED>
+  <!ELEMENT diapositiva (titulo, punto*)>
+      <!ELEMENT titulo (#PCDATA)>
+      <!ELEMENT punto (#PCDATA)>
+      <!ATTLIST diapositiva tipo CDATA #REQUIRED>
+]>
+
+
+<!--  Ejemplo de diapositivas  -->
+<pasediapositivas   titulo="Diapositivas simples"  fecha="Fecha Publicación"
+    autor="Nombre Autor">
+
+    <!-- DIAPOSITIVA TITULO -->
+    <diapositiva tipo="todas">
+      <titulo>Wake up to WonderWidgets!</titulo>
+    </diapositiva>
+
+    <!-- INDICE -->
+    <diapositiva tipo="todas">
+        <titulo>Overview</titulo>
+        <punto>Por qué XML es mejor </punto>
+        <punto/>
+        <punto>Quién utiliza XML</punto>
+    </diapositiva>
+</pasediapositivas>

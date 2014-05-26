@@ -1,0 +1,23 @@
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+/*
+Let’s begin the CSS by getting the basic dropdown 
+functionality working. With CSS specificity and 
+advanced selectors we can target individual elements 
+buried deep in the HTML structure without the need 
+for extra IDs or classes. First hide the sub menus 
+by targeting any UL’s within a UL with the display:none; 
+declaration. In order to make these menus reappear 
+they need to be converted back to block elements on hover 
+of the LI. The > child selector makes sure only 
+the child UL of the LI being hovered is targeted, 
+rather than all sub menus appearing at once.
+*/
+

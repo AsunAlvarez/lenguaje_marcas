@@ -1,0 +1,4 @@
+http://xitrus.es/blog/61/Selectores_de_CSS3
+http://xitrus.es/blog/45/Pseudo-elemento_:before_y_:after
+http://xitrus.es/utilidades/Font-Face
+http://xitrus.es/blog/58/Pictograf%C3%ADas

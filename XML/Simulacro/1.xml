@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<futbol>
+
+    <partido>
+        <id>5545</id>
+        
+        <competition>
+            <nombre>Champions League</nombre>
+            <año>2013</año>
+            <jornada>octavos</jornada>        
+        </competition>
+        
+        <equipos>
+            <local>barcelona</local>
+            <visitante>milan</visitante>
+            <resultado>1-0</resultado>
+        </equipos>
+        
+        <bandera>
+            <local>www.barsa.cat/bandera.jpg</local>
+            <visitante>www.milano.it/banderina.jpg</visitante>
+        </bandera>
+        
+        <datosinteres>
+            <fecha>12/03/2013</fecha>
+            <hora>20:45</hora>
+            <estado>jugando</estado>
+            <minutogeneracionxml>65</minutogeneracionxml>
+        </datosinteres>
+ 
+        <retransmision>
+            <canal>
+                  <nombre>canal  + liga campeones</nombre>
+                  <logo>www.canalplus.com/logo</logo>
+            </canal>
+        </retransmision>
+            
+    </partido>
+    
+</futbol>
